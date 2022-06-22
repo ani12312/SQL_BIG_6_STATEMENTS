@@ -1,0 +1,3007 @@
+<?xml version="1.0"?>
+
+<resultset statement="select 
+	customer_id,
+    count(rental_id)
+from rental 
+group by customer_id
+order by count(rental_id) desc
+LIMIT 0, 50000
+"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+	<row>
+		<field name="customer_id">148</field>
+		<field name="count(rental_id)">46</field>
+	</row>
+
+	<row>
+		<field name="customer_id">526</field>
+		<field name="count(rental_id)">45</field>
+	</row>
+
+	<row>
+		<field name="customer_id">144</field>
+		<field name="count(rental_id)">42</field>
+	</row>
+
+	<row>
+		<field name="customer_id">236</field>
+		<field name="count(rental_id)">42</field>
+	</row>
+
+	<row>
+		<field name="customer_id">75</field>
+		<field name="count(rental_id)">41</field>
+	</row>
+
+	<row>
+		<field name="customer_id">469</field>
+		<field name="count(rental_id)">40</field>
+	</row>
+
+	<row>
+		<field name="customer_id">197</field>
+		<field name="count(rental_id)">40</field>
+	</row>
+
+	<row>
+		<field name="customer_id">178</field>
+		<field name="count(rental_id)">39</field>
+	</row>
+
+	<row>
+		<field name="customer_id">137</field>
+		<field name="count(rental_id)">39</field>
+	</row>
+
+	<row>
+		<field name="customer_id">468</field>
+		<field name="count(rental_id)">39</field>
+	</row>
+
+	<row>
+		<field name="customer_id">295</field>
+		<field name="count(rental_id)">38</field>
+	</row>
+
+	<row>
+		<field name="customer_id">459</field>
+		<field name="count(rental_id)">38</field>
+	</row>
+
+	<row>
+		<field name="customer_id">410</field>
+		<field name="count(rental_id)">38</field>
+	</row>
+
+	<row>
+		<field name="customer_id">5</field>
+		<field name="count(rental_id)">38</field>
+	</row>
+
+	<row>
+		<field name="customer_id">176</field>
+		<field name="count(rental_id)">37</field>
+	</row>
+
+	<row>
+		<field name="customer_id">198</field>
+		<field name="count(rental_id)">37</field>
+	</row>
+
+	<row>
+		<field name="customer_id">257</field>
+		<field name="count(rental_id)">37</field>
+	</row>
+
+	<row>
+		<field name="customer_id">366</field>
+		<field name="count(rental_id)">37</field>
+	</row>
+
+	<row>
+		<field name="customer_id">348</field>
+		<field name="count(rental_id)">36</field>
+	</row>
+
+	<row>
+		<field name="customer_id">380</field>
+		<field name="count(rental_id)">36</field>
+	</row>
+
+	<row>
+		<field name="customer_id">29</field>
+		<field name="count(rental_id)">36</field>
+	</row>
+
+	<row>
+		<field name="customer_id">267</field>
+		<field name="count(rental_id)">36</field>
+	</row>
+
+	<row>
+		<field name="customer_id">439</field>
+		<field name="count(rental_id)">36</field>
+	</row>
+
+	<row>
+		<field name="customer_id">354</field>
+		<field name="count(rental_id)">36</field>
+	</row>
+
+	<row>
+		<field name="customer_id">368</field>
+		<field name="count(rental_id)">35</field>
+	</row>
+
+	<row>
+		<field name="customer_id">91</field>
+		<field name="count(rental_id)">35</field>
+	</row>
+
+	<row>
+		<field name="customer_id">273</field>
+		<field name="count(rental_id)">35</field>
+	</row>
+
+	<row>
+		<field name="customer_id">50</field>
+		<field name="count(rental_id)">35</field>
+	</row>
+
+	<row>
+		<field name="customer_id">274</field>
+		<field name="count(rental_id)">35</field>
+	</row>
+
+	<row>
+		<field name="customer_id">381</field>
+		<field name="count(rental_id)">35</field>
+	</row>
+
+	<row>
+		<field name="customer_id">371</field>
+		<field name="count(rental_id)">35</field>
+	</row>
+
+	<row>
+		<field name="customer_id">403</field>
+		<field name="count(rental_id)">35</field>
+	</row>
+
+	<row>
+		<field name="customer_id">21</field>
+		<field name="count(rental_id)">35</field>
+	</row>
+
+	<row>
+		<field name="customer_id">373</field>
+		<field name="count(rental_id)">35</field>
+	</row>
+
+	<row>
+		<field name="customer_id">204</field>
+		<field name="count(rental_id)">35</field>
+	</row>
+
+	<row>
+		<field name="customer_id">196</field>
+		<field name="count(rental_id)">35</field>
+	</row>
+
+	<row>
+		<field name="customer_id">506</field>
+		<field name="count(rental_id)">35</field>
+	</row>
+
+	<row>
+		<field name="customer_id">38</field>
+		<field name="count(rental_id)">34</field>
+	</row>
+
+	<row>
+		<field name="customer_id">241</field>
+		<field name="count(rental_id)">34</field>
+	</row>
+
+	<row>
+		<field name="customer_id">168</field>
+		<field name="count(rental_id)">34</field>
+	</row>
+
+	<row>
+		<field name="customer_id">360</field>
+		<field name="count(rental_id)">34</field>
+	</row>
+
+	<row>
+		<field name="customer_id">147</field>
+		<field name="count(rental_id)">34</field>
+	</row>
+
+	<row>
+		<field name="customer_id">211</field>
+		<field name="count(rental_id)">34</field>
+	</row>
+
+	<row>
+		<field name="customer_id">30</field>
+		<field name="count(rental_id)">34</field>
+	</row>
+
+	<row>
+		<field name="customer_id">372</field>
+		<field name="count(rental_id)">34</field>
+	</row>
+
+	<row>
+		<field name="customer_id">138</field>
+		<field name="count(rental_id)">34</field>
+	</row>
+
+	<row>
+		<field name="customer_id">181</field>
+		<field name="count(rental_id)">34</field>
+	</row>
+
+	<row>
+		<field name="customer_id">576</field>
+		<field name="count(rental_id)">34</field>
+	</row>
+
+	<row>
+		<field name="customer_id">502</field>
+		<field name="count(rental_id)">34</field>
+	</row>
+
+	<row>
+		<field name="customer_id">566</field>
+		<field name="count(rental_id)">34</field>
+	</row>
+
+	<row>
+		<field name="customer_id">129</field>
+		<field name="count(rental_id)">34</field>
+	</row>
+
+	<row>
+		<field name="customer_id">119</field>
+		<field name="count(rental_id)">34</field>
+	</row>
+
+	<row>
+		<field name="customer_id">66</field>
+		<field name="count(rental_id)">34</field>
+	</row>
+
+	<row>
+		<field name="customer_id">46</field>
+		<field name="count(rental_id)">34</field>
+	</row>
+
+	<row>
+		<field name="customer_id">473</field>
+		<field name="count(rental_id)">34</field>
+	</row>
+
+	<row>
+		<field name="customer_id">207</field>
+		<field name="count(rental_id)">34</field>
+	</row>
+
+	<row>
+		<field name="customer_id">239</field>
+		<field name="count(rental_id)">34</field>
+	</row>
+
+	<row>
+		<field name="customer_id">26</field>
+		<field name="count(rental_id)">34</field>
+	</row>
+
+	<row>
+		<field name="customer_id">102</field>
+		<field name="count(rental_id)">33</field>
+	</row>
+
+	<row>
+		<field name="customer_id">230</field>
+		<field name="count(rental_id)">33</field>
+	</row>
+
+	<row>
+		<field name="customer_id">390</field>
+		<field name="count(rental_id)">33</field>
+	</row>
+
+	<row>
+		<field name="customer_id">454</field>
+		<field name="count(rental_id)">33</field>
+	</row>
+
+	<row>
+		<field name="customer_id">7</field>
+		<field name="count(rental_id)">33</field>
+	</row>
+
+	<row>
+		<field name="customer_id">114</field>
+		<field name="count(rental_id)">33</field>
+	</row>
+
+	<row>
+		<field name="customer_id">51</field>
+		<field name="count(rental_id)">33</field>
+	</row>
+
+	<row>
+		<field name="customer_id">297</field>
+		<field name="count(rental_id)">33</field>
+	</row>
+
+	<row>
+		<field name="customer_id">84</field>
+		<field name="count(rental_id)">33</field>
+	</row>
+
+	<row>
+		<field name="customer_id">522</field>
+		<field name="count(rental_id)">33</field>
+	</row>
+
+	<row>
+		<field name="customer_id">533</field>
+		<field name="count(rental_id)">33</field>
+	</row>
+
+	<row>
+		<field name="customer_id">64</field>
+		<field name="count(rental_id)">33</field>
+	</row>
+
+	<row>
+		<field name="customer_id">86</field>
+		<field name="count(rental_id)">33</field>
+	</row>
+
+	<row>
+		<field name="customer_id">438</field>
+		<field name="count(rental_id)">33</field>
+	</row>
+
+	<row>
+		<field name="customer_id">172</field>
+		<field name="count(rental_id)">33</field>
+	</row>
+
+	<row>
+		<field name="customer_id">237</field>
+		<field name="count(rental_id)">33</field>
+	</row>
+
+	<row>
+		<field name="customer_id">451</field>
+		<field name="count(rental_id)">33</field>
+	</row>
+
+	<row>
+		<field name="customer_id">462</field>
+		<field name="count(rental_id)">33</field>
+	</row>
+
+	<row>
+		<field name="customer_id">314</field>
+		<field name="count(rental_id)">33</field>
+	</row>
+
+	<row>
+		<field name="customer_id">550</field>
+		<field name="count(rental_id)">32</field>
+	</row>
+
+	<row>
+		<field name="customer_id">209</field>
+		<field name="count(rental_id)">32</field>
+	</row>
+
+	<row>
+		<field name="customer_id">28</field>
+		<field name="count(rental_id)">32</field>
+	</row>
+
+	<row>
+		<field name="customer_id">167</field>
+		<field name="count(rental_id)">32</field>
+	</row>
+
+	<row>
+		<field name="customer_id">242</field>
+		<field name="count(rental_id)">32</field>
+	</row>
+
+	<row>
+		<field name="customer_id">306</field>
+		<field name="count(rental_id)">32</field>
+	</row>
+
+	<row>
+		<field name="customer_id">125</field>
+		<field name="count(rental_id)">32</field>
+	</row>
+
+	<row>
+		<field name="customer_id">520</field>
+		<field name="count(rental_id)">32</field>
+	</row>
+
+	<row>
+		<field name="customer_id">158</field>
+		<field name="count(rental_id)">32</field>
+	</row>
+
+	<row>
+		<field name="customer_id">254</field>
+		<field name="count(rental_id)">32</field>
+	</row>
+
+	<row>
+		<field name="customer_id">329</field>
+		<field name="count(rental_id)">32</field>
+	</row>
+
+	<row>
+		<field name="customer_id">244</field>
+		<field name="count(rental_id)">32</field>
+	</row>
+
+	<row>
+		<field name="customer_id">532</field>
+		<field name="count(rental_id)">32</field>
+	</row>
+
+	<row>
+		<field name="customer_id">362</field>
+		<field name="count(rental_id)">32</field>
+	</row>
+
+	<row>
+		<field name="customer_id">245</field>
+		<field name="count(rental_id)">32</field>
+	</row>
+
+	<row>
+		<field name="customer_id">277</field>
+		<field name="count(rental_id)">32</field>
+	</row>
+
+	<row>
+		<field name="customer_id">405</field>
+		<field name="count(rental_id)">32</field>
+	</row>
+
+	<row>
+		<field name="customer_id">128</field>
+		<field name="count(rental_id)">32</field>
+	</row>
+
+	<row>
+		<field name="customer_id">342</field>
+		<field name="count(rental_id)">32</field>
+	</row>
+
+	<row>
+		<field name="customer_id">406</field>
+		<field name="count(rental_id)">32</field>
+	</row>
+
+	<row>
+		<field name="customer_id">470</field>
+		<field name="count(rental_id)">32</field>
+	</row>
+
+	<row>
+		<field name="customer_id">1</field>
+		<field name="count(rental_id)">32</field>
+	</row>
+
+	<row>
+		<field name="customer_id">503</field>
+		<field name="count(rental_id)">32</field>
+	</row>
+
+	<row>
+		<field name="customer_id">535</field>
+		<field name="count(rental_id)">32</field>
+	</row>
+
+	<row>
+		<field name="customer_id">141</field>
+		<field name="count(rental_id)">32</field>
+	</row>
+
+	<row>
+		<field name="customer_id">120</field>
+		<field name="count(rental_id)">32</field>
+	</row>
+
+	<row>
+		<field name="customer_id">35</field>
+		<field name="count(rental_id)">32</field>
+	</row>
+
+	<row>
+		<field name="customer_id">259</field>
+		<field name="count(rental_id)">32</field>
+	</row>
+
+	<row>
+		<field name="customer_id">89</field>
+		<field name="count(rental_id)">32</field>
+	</row>
+
+	<row>
+		<field name="customer_id">569</field>
+		<field name="count(rental_id)">32</field>
+	</row>
+
+	<row>
+		<field name="customer_id">452</field>
+		<field name="count(rental_id)">32</field>
+	</row>
+
+	<row>
+		<field name="customer_id">15</field>
+		<field name="count(rental_id)">32</field>
+	</row>
+
+	<row>
+		<field name="customer_id">122</field>
+		<field name="count(rental_id)">32</field>
+	</row>
+
+	<row>
+		<field name="customer_id">346</field>
+		<field name="count(rental_id)">32</field>
+	</row>
+
+	<row>
+		<field name="customer_id">442</field>
+		<field name="count(rental_id)">32</field>
+	</row>
+
+	<row>
+		<field name="customer_id">27</field>
+		<field name="count(rental_id)">31</field>
+	</row>
+
+	<row>
+		<field name="customer_id">251</field>
+		<field name="count(rental_id)">31</field>
+	</row>
+
+	<row>
+		<field name="customer_id">103</field>
+		<field name="count(rental_id)">31</field>
+	</row>
+
+	<row>
+		<field name="customer_id">210</field>
+		<field name="count(rental_id)">31</field>
+	</row>
+
+	<row>
+		<field name="customer_id">157</field>
+		<field name="count(rental_id)">31</field>
+	</row>
+
+	<row>
+		<field name="customer_id">446</field>
+		<field name="count(rental_id)">31</field>
+	</row>
+
+	<row>
+		<field name="customer_id">361</field>
+		<field name="count(rental_id)">31</field>
+	</row>
+
+	<row>
+		<field name="customer_id">393</field>
+		<field name="count(rental_id)">31</field>
+	</row>
+
+	<row>
+		<field name="customer_id">340</field>
+		<field name="count(rental_id)">31</field>
+	</row>
+
+	<row>
+		<field name="customer_id">479</field>
+		<field name="count(rental_id)">31</field>
+	</row>
+
+	<row>
+		<field name="customer_id">309</field>
+		<field name="count(rental_id)">31</field>
+	</row>
+
+	<row>
+		<field name="customer_id">416</field>
+		<field name="count(rental_id)">31</field>
+	</row>
+
+	<row>
+		<field name="customer_id">214</field>
+		<field name="count(rental_id)">31</field>
+	</row>
+
+	<row>
+		<field name="customer_id">513</field>
+		<field name="count(rental_id)">31</field>
+	</row>
+
+	<row>
+		<field name="customer_id">300</field>
+		<field name="count(rental_id)">31</field>
+	</row>
+
+	<row>
+		<field name="customer_id">279</field>
+		<field name="count(rental_id)">31</field>
+	</row>
+
+	<row>
+		<field name="customer_id">323</field>
+		<field name="count(rental_id)">31</field>
+	</row>
+
+	<row>
+		<field name="customer_id">78</field>
+		<field name="count(rental_id)">31</field>
+	</row>
+
+	<row>
+		<field name="customer_id">494</field>
+		<field name="count(rental_id)">31</field>
+	</row>
+
+	<row>
+		<field name="customer_id">260</field>
+		<field name="count(rental_id)">31</field>
+	</row>
+
+	<row>
+		<field name="customer_id">186</field>
+		<field name="count(rental_id)">31</field>
+	</row>
+
+	<row>
+		<field name="customer_id">293</field>
+		<field name="count(rental_id)">31</field>
+	</row>
+
+	<row>
+		<field name="customer_id">80</field>
+		<field name="count(rental_id)">30</field>
+	</row>
+
+	<row>
+		<field name="customer_id">112</field>
+		<field name="count(rental_id)">30</field>
+	</row>
+
+	<row>
+		<field name="customer_id">336</field>
+		<field name="count(rental_id)">30</field>
+	</row>
+
+	<row>
+		<field name="customer_id">560</field>
+		<field name="count(rental_id)">30</field>
+	</row>
+
+	<row>
+		<field name="customer_id">347</field>
+		<field name="count(rental_id)">30</field>
+	</row>
+
+	<row>
+		<field name="customer_id">444</field>
+		<field name="count(rental_id)">30</field>
+	</row>
+
+	<row>
+		<field name="customer_id">71</field>
+		<field name="count(rental_id)">30</field>
+	</row>
+
+	<row>
+		<field name="customer_id">135</field>
+		<field name="count(rental_id)">30</field>
+	</row>
+
+	<row>
+		<field name="customer_id">391</field>
+		<field name="count(rental_id)">30</field>
+	</row>
+
+	<row>
+		<field name="customer_id">72</field>
+		<field name="count(rental_id)">30</field>
+	</row>
+
+	<row>
+		<field name="customer_id">296</field>
+		<field name="count(rental_id)">30</field>
+	</row>
+
+	<row>
+		<field name="customer_id">424</field>
+		<field name="count(rental_id)">30</field>
+	</row>
+
+	<row>
+		<field name="customer_id">584</field>
+		<field name="count(rental_id)">30</field>
+	</row>
+
+	<row>
+		<field name="customer_id">115</field>
+		<field name="count(rental_id)">30</field>
+	</row>
+
+	<row>
+		<field name="customer_id">275</field>
+		<field name="count(rental_id)">30</field>
+	</row>
+
+	<row>
+		<field name="customer_id">307</field>
+		<field name="count(rental_id)">30</field>
+	</row>
+
+	<row>
+		<field name="customer_id">339</field>
+		<field name="count(rental_id)">30</field>
+	</row>
+
+	<row>
+		<field name="customer_id">499</field>
+		<field name="count(rental_id)">30</field>
+	</row>
+
+	<row>
+		<field name="customer_id">595</field>
+		<field name="count(rental_id)">30</field>
+	</row>
+
+	<row>
+		<field name="customer_id">20</field>
+		<field name="count(rental_id)">30</field>
+	</row>
+
+	<row>
+		<field name="customer_id">404</field>
+		<field name="count(rental_id)">30</field>
+	</row>
+
+	<row>
+		<field name="customer_id">436</field>
+		<field name="count(rental_id)">30</field>
+	</row>
+
+	<row>
+		<field name="customer_id">319</field>
+		<field name="count(rental_id)">30</field>
+	</row>
+
+	<row>
+		<field name="customer_id">42</field>
+		<field name="count(rental_id)">30</field>
+	</row>
+
+	<row>
+		<field name="customer_id">53</field>
+		<field name="count(rental_id)">30</field>
+	</row>
+
+	<row>
+		<field name="customer_id">256</field>
+		<field name="count(rental_id)">30</field>
+	</row>
+
+	<row>
+		<field name="customer_id">107</field>
+		<field name="count(rental_id)">30</field>
+	</row>
+
+	<row>
+		<field name="customer_id">299</field>
+		<field name="count(rental_id)">30</field>
+	</row>
+
+	<row>
+		<field name="customer_id">161</field>
+		<field name="count(rental_id)">30</field>
+	</row>
+
+	<row>
+		<field name="customer_id">289</field>
+		<field name="count(rental_id)">30</field>
+	</row>
+
+	<row>
+		<field name="customer_id">108</field>
+		<field name="count(rental_id)">30</field>
+	</row>
+
+	<row>
+		<field name="customer_id">23</field>
+		<field name="count(rental_id)">30</field>
+	</row>
+
+	<row>
+		<field name="customer_id">87</field>
+		<field name="count(rental_id)">30</field>
+	</row>
+
+	<row>
+		<field name="customer_id">418</field>
+		<field name="count(rental_id)">30</field>
+	</row>
+
+	<row>
+		<field name="customer_id">269</field>
+		<field name="count(rental_id)">30</field>
+	</row>
+
+	<row>
+		<field name="customer_id">56</field>
+		<field name="count(rental_id)">30</field>
+	</row>
+
+	<row>
+		<field name="customer_id">408</field>
+		<field name="count(rental_id)">30</field>
+	</row>
+
+	<row>
+		<field name="customer_id">472</field>
+		<field name="count(rental_id)">30</field>
+	</row>
+
+	<row>
+		<field name="customer_id">131</field>
+		<field name="count(rental_id)">30</field>
+	</row>
+
+	<row>
+		<field name="customer_id">334</field>
+		<field name="count(rental_id)">30</field>
+	</row>
+
+	<row>
+		<field name="customer_id">356</field>
+		<field name="count(rental_id)">30</field>
+	</row>
+
+	<row>
+		<field name="customer_id">388</field>
+		<field name="count(rental_id)">30</field>
+	</row>
+
+	<row>
+		<field name="customer_id">484</field>
+		<field name="count(rental_id)">30</field>
+	</row>
+
+	<row>
+		<field name="customer_id">154</field>
+		<field name="count(rental_id)">30</field>
+	</row>
+
+	<row>
+		<field name="customer_id">592</field>
+		<field name="count(rental_id)">29</field>
+	</row>
+
+	<row>
+		<field name="customer_id">113</field>
+		<field name="count(rental_id)">29</field>
+	</row>
+
+	<row>
+		<field name="customer_id">337</field>
+		<field name="count(rental_id)">29</field>
+	</row>
+
+	<row>
+		<field name="customer_id">529</field>
+		<field name="count(rental_id)">29</field>
+	</row>
+
+	<row>
+		<field name="customer_id">316</field>
+		<field name="count(rental_id)">29</field>
+	</row>
+
+	<row>
+		<field name="customer_id">39</field>
+		<field name="count(rental_id)">29</field>
+	</row>
+
+	<row>
+		<field name="customer_id">263</field>
+		<field name="count(rental_id)">29</field>
+	</row>
+
+	<row>
+		<field name="customer_id">146</field>
+		<field name="count(rental_id)">29</field>
+	</row>
+
+	<row>
+		<field name="customer_id">253</field>
+		<field name="count(rental_id)">29</field>
+	</row>
+
+	<row>
+		<field name="customer_id">349</field>
+		<field name="count(rental_id)">29</field>
+	</row>
+
+	<row>
+		<field name="customer_id">573</field>
+		<field name="count(rental_id)">29</field>
+	</row>
+
+	<row>
+		<field name="customer_id">179</field>
+		<field name="count(rental_id)">29</field>
+	</row>
+
+	<row>
+		<field name="customer_id">467</field>
+		<field name="count(rental_id)">29</field>
+	</row>
+
+	<row>
+		<field name="customer_id">563</field>
+		<field name="count(rental_id)">29</field>
+	</row>
+
+	<row>
+		<field name="customer_id">265</field>
+		<field name="count(rental_id)">29</field>
+	</row>
+
+	<row>
+		<field name="customer_id">52</field>
+		<field name="count(rental_id)">29</field>
+	</row>
+
+	<row>
+		<field name="customer_id">287</field>
+		<field name="count(rental_id)">29</field>
+	</row>
+
+	<row>
+		<field name="customer_id">447</field>
+		<field name="count(rental_id)">29</field>
+	</row>
+
+	<row>
+		<field name="customer_id">575</field>
+		<field name="count(rental_id)">29</field>
+	</row>
+
+	<row>
+		<field name="customer_id">565</field>
+		<field name="count(rental_id)">29</field>
+	</row>
+
+	<row>
+		<field name="customer_id">32</field>
+		<field name="count(rental_id)">29</field>
+	</row>
+
+	<row>
+		<field name="customer_id">448</field>
+		<field name="count(rental_id)">29</field>
+	</row>
+
+	<row>
+		<field name="customer_id">363</field>
+		<field name="count(rental_id)">29</field>
+	</row>
+
+	<row>
+		<field name="customer_id">54</field>
+		<field name="count(rental_id)">29</field>
+	</row>
+
+	<row>
+		<field name="customer_id">481</field>
+		<field name="count(rental_id)">29</field>
+	</row>
+
+	<row>
+		<field name="customer_id">268</field>
+		<field name="count(rental_id)">29</field>
+	</row>
+
+	<row>
+		<field name="customer_id">588</field>
+		<field name="count(rental_id)">29</field>
+	</row>
+
+	<row>
+		<field name="customer_id">386</field>
+		<field name="count(rental_id)">29</field>
+	</row>
+
+	<row>
+		<field name="customer_id">482</field>
+		<field name="count(rental_id)">29</field>
+	</row>
+
+	<row>
+		<field name="customer_id">173</field>
+		<field name="count(rental_id)">29</field>
+	</row>
+
+	<row>
+		<field name="customer_id">397</field>
+		<field name="count(rental_id)">29</field>
+	</row>
+
+	<row>
+		<field name="customer_id">163</field>
+		<field name="count(rental_id)">29</field>
+	</row>
+
+	<row>
+		<field name="customer_id">302</field>
+		<field name="count(rental_id)">29</field>
+	</row>
+
+	<row>
+		<field name="customer_id">25</field>
+		<field name="count(rental_id)">29</field>
+	</row>
+
+	<row>
+		<field name="customer_id">538</field>
+		<field name="count(rental_id)">29</field>
+	</row>
+
+	<row>
+		<field name="customer_id">485</field>
+		<field name="count(rental_id)">29</field>
+	</row>
+
+	<row>
+		<field name="customer_id">16</field>
+		<field name="count(rental_id)">28</field>
+	</row>
+
+	<row>
+		<field name="customer_id">400</field>
+		<field name="count(rental_id)">28</field>
+	</row>
+
+	<row>
+		<field name="customer_id">187</field>
+		<field name="count(rental_id)">28</field>
+	</row>
+
+	<row>
+		<field name="customer_id">283</field>
+		<field name="count(rental_id)">28</field>
+	</row>
+
+	<row>
+		<field name="customer_id">6</field>
+		<field name="count(rental_id)">28</field>
+	</row>
+
+	<row>
+		<field name="customer_id">166</field>
+		<field name="count(rental_id)">28</field>
+	</row>
+
+	<row>
+		<field name="customer_id">262</field>
+		<field name="count(rental_id)">28</field>
+	</row>
+
+	<row>
+		<field name="customer_id">49</field>
+		<field name="count(rental_id)">28</field>
+	</row>
+
+	<row>
+		<field name="customer_id">145</field>
+		<field name="count(rental_id)">28</field>
+	</row>
+
+	<row>
+		<field name="customer_id">497</field>
+		<field name="count(rental_id)">28</field>
+	</row>
+
+	<row>
+		<field name="customer_id">92</field>
+		<field name="count(rental_id)">28</field>
+	</row>
+
+	<row>
+		<field name="customer_id">284</field>
+		<field name="count(rental_id)">28</field>
+	</row>
+
+	<row>
+		<field name="customer_id">338</field>
+		<field name="count(rental_id)">28</field>
+	</row>
+
+	<row>
+		<field name="customer_id">221</field>
+		<field name="count(rental_id)">28</field>
+	</row>
+
+	<row>
+		<field name="customer_id">317</field>
+		<field name="count(rental_id)">28</field>
+	</row>
+
+	<row>
+		<field name="customer_id">126</field>
+		<field name="count(rental_id)">28</field>
+	</row>
+
+	<row>
+		<field name="customer_id">574</field>
+		<field name="count(rental_id)">28</field>
+	</row>
+
+	<row>
+		<field name="customer_id">457</field>
+		<field name="count(rental_id)">28</field>
+	</row>
+
+	<row>
+		<field name="customer_id">276</field>
+		<field name="count(rental_id)">28</field>
+	</row>
+
+	<row>
+		<field name="customer_id">500</field>
+		<field name="count(rental_id)">28</field>
+	</row>
+
+	<row>
+		<field name="customer_id">596</field>
+		<field name="count(rental_id)">28</field>
+	</row>
+
+	<row>
+		<field name="customer_id">266</field>
+		<field name="count(rental_id)">28</field>
+	</row>
+
+	<row>
+		<field name="customer_id">213</field>
+		<field name="count(rental_id)">28</field>
+	</row>
+
+	<row>
+		<field name="customer_id">374</field>
+		<field name="count(rental_id)">28</field>
+	</row>
+
+	<row>
+		<field name="customer_id">12</field>
+		<field name="count(rental_id)">28</field>
+	</row>
+
+	<row>
+		<field name="customer_id">332</field>
+		<field name="count(rental_id)">28</field>
+	</row>
+
+	<row>
+		<field name="customer_id">290</field>
+		<field name="count(rental_id)">28</field>
+	</row>
+
+	<row>
+		<field name="customer_id">322</field>
+		<field name="count(rental_id)">28</field>
+	</row>
+
+	<row>
+		<field name="customer_id">77</field>
+		<field name="count(rental_id)">28</field>
+	</row>
+
+	<row>
+		<field name="customer_id">461</field>
+		<field name="count(rental_id)">28</field>
+	</row>
+
+	<row>
+		<field name="customer_id">589</field>
+		<field name="count(rental_id)">28</field>
+	</row>
+
+	<row>
+		<field name="customer_id">376</field>
+		<field name="count(rental_id)">28</field>
+	</row>
+
+	<row>
+		<field name="customer_id">504</field>
+		<field name="count(rental_id)">28</field>
+	</row>
+
+	<row>
+		<field name="customer_id">515</field>
+		<field name="count(rental_id)">28</field>
+	</row>
+
+	<row>
+		<field name="customer_id">14</field>
+		<field name="count(rental_id)">28</field>
+	</row>
+
+	<row>
+		<field name="customer_id">558</field>
+		<field name="count(rental_id)">28</field>
+	</row>
+
+	<row>
+		<field name="customer_id">57</field>
+		<field name="count(rental_id)">28</field>
+	</row>
+
+	<row>
+		<field name="customer_id">441</field>
+		<field name="count(rental_id)">28</field>
+	</row>
+
+	<row>
+		<field name="customer_id">132</field>
+		<field name="count(rental_id)">28</field>
+	</row>
+
+	<row>
+		<field name="customer_id">559</field>
+		<field name="count(rental_id)">28</field>
+	</row>
+
+	<row>
+		<field name="customer_id">90</field>
+		<field name="count(rental_id)">28</field>
+	</row>
+
+	<row>
+		<field name="customer_id">59</field>
+		<field name="count(rental_id)">27</field>
+	</row>
+
+	<row>
+		<field name="customer_id">561</field>
+		<field name="count(rental_id)">27</field>
+	</row>
+
+	<row>
+		<field name="customer_id">220</field>
+		<field name="count(rental_id)">27</field>
+	</row>
+
+	<row>
+		<field name="customer_id">434</field>
+		<field name="count(rental_id)">27</field>
+	</row>
+
+	<row>
+		<field name="customer_id">498</field>
+		<field name="count(rental_id)">27</field>
+	</row>
+
+	<row>
+		<field name="customer_id">594</field>
+		<field name="count(rental_id)">27</field>
+	</row>
+
+	<row>
+		<field name="customer_id">40</field>
+		<field name="count(rental_id)">27</field>
+	</row>
+
+	<row>
+		<field name="customer_id">200</field>
+		<field name="count(rental_id)">27</field>
+	</row>
+
+	<row>
+		<field name="customer_id">190</field>
+		<field name="count(rental_id)">27</field>
+	</row>
+
+	<row>
+		<field name="customer_id">286</field>
+		<field name="count(rental_id)">27</field>
+	</row>
+
+	<row>
+		<field name="customer_id">116</field>
+		<field name="count(rental_id)">27</field>
+	</row>
+
+	<row>
+		<field name="customer_id">383</field>
+		<field name="count(rental_id)">27</field>
+	</row>
+
+	<row>
+		<field name="customer_id">74</field>
+		<field name="count(rental_id)">27</field>
+	</row>
+
+	<row>
+		<field name="customer_id">426</field>
+		<field name="count(rental_id)">27</field>
+	</row>
+
+	<row>
+		<field name="customer_id">96</field>
+		<field name="count(rental_id)">27</field>
+	</row>
+
+	<row>
+		<field name="customer_id">160</field>
+		<field name="count(rental_id)">27</field>
+	</row>
+
+	<row>
+		<field name="customer_id">139</field>
+		<field name="count(rental_id)">27</field>
+	</row>
+
+	<row>
+		<field name="customer_id">331</field>
+		<field name="count(rental_id)">27</field>
+	</row>
+
+	<row>
+		<field name="customer_id">491</field>
+		<field name="count(rental_id)">27</field>
+	</row>
+
+	<row>
+		<field name="customer_id">577</field>
+		<field name="count(rental_id)">27</field>
+	</row>
+
+	<row>
+		<field name="customer_id">396</field>
+		<field name="count(rental_id)">27</field>
+	</row>
+
+	<row>
+		<field name="customer_id">151</field>
+		<field name="count(rental_id)">27</field>
+	</row>
+
+	<row>
+		<field name="customer_id">407</field>
+		<field name="count(rental_id)">27</field>
+	</row>
+
+	<row>
+		<field name="customer_id">471</field>
+		<field name="count(rental_id)">27</field>
+	</row>
+
+	<row>
+		<field name="customer_id">2</field>
+		<field name="count(rental_id)">27</field>
+	</row>
+
+	<row>
+		<field name="customer_id">13</field>
+		<field name="count(rental_id)">27</field>
+	</row>
+
+	<row>
+		<field name="customer_id">45</field>
+		<field name="count(rental_id)">27</field>
+	</row>
+
+	<row>
+		<field name="customer_id">333</field>
+		<field name="count(rental_id)">27</field>
+	</row>
+
+	<row>
+		<field name="customer_id">280</field>
+		<field name="count(rental_id)">27</field>
+	</row>
+
+	<row>
+		<field name="customer_id">579</field>
+		<field name="count(rental_id)">27</field>
+	</row>
+
+	<row>
+		<field name="customer_id">206</field>
+		<field name="count(rental_id)">27</field>
+	</row>
+
+	<row>
+		<field name="customer_id">36</field>
+		<field name="count(rental_id)">27</field>
+	</row>
+
+	<row>
+		<field name="customer_id">228</field>
+		<field name="count(rental_id)">27</field>
+	</row>
+
+	<row>
+		<field name="customer_id">292</field>
+		<field name="count(rental_id)">27</field>
+	</row>
+
+	<row>
+		<field name="customer_id">580</field>
+		<field name="count(rental_id)">27</field>
+	</row>
+
+	<row>
+		<field name="customer_id">591</field>
+		<field name="count(rental_id)">27</field>
+	</row>
+
+	<row>
+		<field name="customer_id">58</field>
+		<field name="count(rental_id)">27</field>
+	</row>
+
+	<row>
+		<field name="customer_id">282</field>
+		<field name="count(rental_id)">27</field>
+	</row>
+
+	<row>
+		<field name="customer_id">133</field>
+		<field name="count(rental_id)">27</field>
+	</row>
+
+	<row>
+		<field name="customer_id">421</field>
+		<field name="count(rental_id)">27</field>
+	</row>
+
+	<row>
+		<field name="customer_id">581</field>
+		<field name="count(rental_id)">27</field>
+	</row>
+
+	<row>
+		<field name="customer_id">208</field>
+		<field name="count(rental_id)">26</field>
+	</row>
+
+	<row>
+		<field name="customer_id">240</field>
+		<field name="count(rental_id)">26</field>
+	</row>
+
+	<row>
+		<field name="customer_id">304</field>
+		<field name="count(rental_id)">26</field>
+	</row>
+
+	<row>
+		<field name="customer_id">219</field>
+		<field name="count(rental_id)">26</field>
+	</row>
+
+	<row>
+		<field name="customer_id">411</field>
+		<field name="count(rental_id)">26</field>
+	</row>
+
+	<row>
+		<field name="customer_id">294</field>
+		<field name="count(rental_id)">26</field>
+	</row>
+
+	<row>
+		<field name="customer_id">422</field>
+		<field name="count(rental_id)">26</field>
+	</row>
+
+	<row>
+		<field name="customer_id">486</field>
+		<field name="count(rental_id)">26</field>
+	</row>
+
+	<row>
+		<field name="customer_id">518</field>
+		<field name="count(rental_id)">26</field>
+	</row>
+
+	<row>
+		<field name="customer_id">593</field>
+		<field name="count(rental_id)">26</field>
+	</row>
+
+	<row>
+		<field name="customer_id">231</field>
+		<field name="count(rental_id)">26</field>
+	</row>
+
+	<row>
+		<field name="customer_id">327</field>
+		<field name="count(rental_id)">26</field>
+	</row>
+
+	<row>
+		<field name="customer_id">423</field>
+		<field name="count(rental_id)">26</field>
+	</row>
+
+	<row>
+		<field name="customer_id">487</field>
+		<field name="count(rental_id)">26</field>
+	</row>
+
+	<row>
+		<field name="customer_id">551</field>
+		<field name="count(rental_id)">26</field>
+	</row>
+
+	<row>
+		<field name="customer_id">82</field>
+		<field name="count(rental_id)">26</field>
+	</row>
+
+	<row>
+		<field name="customer_id">285</field>
+		<field name="count(rental_id)">26</field>
+	</row>
+
+	<row>
+		<field name="customer_id">445</field>
+		<field name="count(rental_id)">26</field>
+	</row>
+
+	<row>
+		<field name="customer_id">510</field>
+		<field name="count(rental_id)">26</field>
+	</row>
+
+	<row>
+		<field name="customer_id">105</field>
+		<field name="count(rental_id)">26</field>
+	</row>
+
+	<row>
+		<field name="customer_id">425</field>
+		<field name="count(rental_id)">26</field>
+	</row>
+
+	<row>
+		<field name="customer_id">31</field>
+		<field name="count(rental_id)">26</field>
+	</row>
+
+	<row>
+		<field name="customer_id">170</field>
+		<field name="count(rental_id)">26</field>
+	</row>
+
+	<row>
+		<field name="customer_id">202</field>
+		<field name="count(rental_id)">26</field>
+	</row>
+
+	<row>
+		<field name="customer_id">234</field>
+		<field name="count(rental_id)">26</field>
+	</row>
+
+	<row>
+		<field name="customer_id">298</field>
+		<field name="count(rental_id)">26</field>
+	</row>
+
+	<row>
+		<field name="customer_id">149</field>
+		<field name="count(rental_id)">26</field>
+	</row>
+
+	<row>
+		<field name="customer_id">512</field>
+		<field name="count(rental_id)">26</field>
+	</row>
+
+	<row>
+		<field name="customer_id">171</field>
+		<field name="count(rental_id)">26</field>
+	</row>
+
+	<row>
+		<field name="customer_id">587</field>
+		<field name="count(rental_id)">26</field>
+	</row>
+
+	<row>
+		<field name="customer_id">182</field>
+		<field name="count(rental_id)">26</field>
+	</row>
+
+	<row>
+		<field name="customer_id">278</field>
+		<field name="count(rental_id)">26</field>
+	</row>
+
+	<row>
+		<field name="customer_id">225</field>
+		<field name="count(rental_id)">26</field>
+	</row>
+
+	<row>
+		<field name="customer_id">385</field>
+		<field name="count(rental_id)">26</field>
+	</row>
+
+	<row>
+		<field name="customer_id">44</field>
+		<field name="count(rental_id)">26</field>
+	</row>
+
+	<row>
+		<field name="customer_id">215</field>
+		<field name="count(rental_id)">26</field>
+	</row>
+
+	<row>
+		<field name="customer_id">450</field>
+		<field name="count(rental_id)">26</field>
+	</row>
+
+	<row>
+		<field name="customer_id">109</field>
+		<field name="count(rental_id)">26</field>
+	</row>
+
+	<row>
+		<field name="customer_id">312</field>
+		<field name="count(rental_id)">26</field>
+	</row>
+
+	<row>
+		<field name="customer_id">3</field>
+		<field name="count(rental_id)">26</field>
+	</row>
+
+	<row>
+		<field name="customer_id">387</field>
+		<field name="count(rental_id)">26</field>
+	</row>
+
+	<row>
+		<field name="customer_id">142</field>
+		<field name="count(rental_id)">26</field>
+	</row>
+
+	<row>
+		<field name="customer_id">121</field>
+		<field name="count(rental_id)">26</field>
+	</row>
+
+	<row>
+		<field name="customer_id">377</field>
+		<field name="count(rental_id)">26</field>
+	</row>
+
+	<row>
+		<field name="customer_id">516</field>
+		<field name="count(rental_id)">26</field>
+	</row>
+
+	<row>
+		<field name="customer_id">111</field>
+		<field name="count(rental_id)">26</field>
+	</row>
+
+	<row>
+		<field name="customer_id">303</field>
+		<field name="count(rental_id)">26</field>
+	</row>
+
+	<row>
+		<field name="customer_id">495</field>
+		<field name="count(rental_id)">26</field>
+	</row>
+
+	<row>
+		<field name="customer_id">474</field>
+		<field name="count(rental_id)">26</field>
+	</row>
+
+	<row>
+		<field name="customer_id">570</field>
+		<field name="count(rental_id)">26</field>
+	</row>
+
+	<row>
+		<field name="customer_id">261</field>
+		<field name="count(rental_id)">26</field>
+	</row>
+
+	<row>
+		<field name="customer_id">357</field>
+		<field name="count(rental_id)">26</field>
+	</row>
+
+	<row>
+		<field name="customer_id">389</field>
+		<field name="count(rental_id)">26</field>
+	</row>
+
+	<row>
+		<field name="customer_id">528</field>
+		<field name="count(rental_id)">25</field>
+	</row>
+
+	<row>
+		<field name="customer_id">155</field>
+		<field name="count(rental_id)">25</field>
+	</row>
+
+	<row>
+		<field name="customer_id">507</field>
+		<field name="count(rental_id)">25</field>
+	</row>
+
+	<row>
+		<field name="customer_id">326</field>
+		<field name="count(rental_id)">25</field>
+	</row>
+
+	<row>
+		<field name="customer_id">582</field>
+		<field name="count(rental_id)">25</field>
+	</row>
+
+	<row>
+		<field name="customer_id">305</field>
+		<field name="count(rental_id)">25</field>
+	</row>
+
+	<row>
+		<field name="customer_id">369</field>
+		<field name="count(rental_id)">25</field>
+	</row>
+
+	<row>
+		<field name="customer_id">433</field>
+		<field name="count(rental_id)">25</field>
+	</row>
+
+	<row>
+		<field name="customer_id">60</field>
+		<field name="count(rental_id)">25</field>
+	</row>
+
+	<row>
+		<field name="customer_id">156</field>
+		<field name="count(rental_id)">25</field>
+	</row>
+
+	<row>
+		<field name="customer_id">188</field>
+		<field name="count(rental_id)">25</field>
+	</row>
+
+	<row>
+		<field name="customer_id">508</field>
+		<field name="count(rental_id)">25</field>
+	</row>
+
+	<row>
+		<field name="customer_id">572</field>
+		<field name="count(rental_id)">25</field>
+	</row>
+
+	<row>
+		<field name="customer_id">199</field>
+		<field name="count(rental_id)">25</field>
+	</row>
+
+	<row>
+		<field name="customer_id">359</field>
+		<field name="count(rental_id)">25</field>
+	</row>
+
+	<row>
+		<field name="customer_id">562</field>
+		<field name="count(rental_id)">25</field>
+	</row>
+
+	<row>
+		<field name="customer_id">232</field>
+		<field name="count(rental_id)">25</field>
+	</row>
+
+	<row>
+		<field name="customer_id">264</field>
+		<field name="count(rental_id)">25</field>
+	</row>
+
+	<row>
+		<field name="customer_id">456</field>
+		<field name="count(rental_id)">25</field>
+	</row>
+
+	<row>
+		<field name="customer_id">83</field>
+		<field name="count(rental_id)">25</field>
+	</row>
+
+	<row>
+		<field name="customer_id">435</field>
+		<field name="count(rental_id)">25</field>
+	</row>
+
+	<row>
+		<field name="customer_id">531</field>
+		<field name="count(rental_id)">25</field>
+	</row>
+
+	<row>
+		<field name="customer_id">414</field>
+		<field name="count(rental_id)">25</field>
+	</row>
+
+	<row>
+		<field name="customer_id">41</field>
+		<field name="count(rental_id)">25</field>
+	</row>
+
+	<row>
+		<field name="customer_id">201</field>
+		<field name="count(rental_id)">25</field>
+	</row>
+
+	<row>
+		<field name="customer_id">308</field>
+		<field name="count(rental_id)">25</field>
+	</row>
+
+	<row>
+		<field name="customer_id">63</field>
+		<field name="count(rental_id)">25</field>
+	</row>
+
+	<row>
+		<field name="customer_id">10</field>
+		<field name="count(rental_id)">25</field>
+	</row>
+
+	<row>
+		<field name="customer_id">330</field>
+		<field name="count(rental_id)">25</field>
+	</row>
+
+	<row>
+		<field name="customer_id">597</field>
+		<field name="count(rental_id)">25</field>
+	</row>
+
+	<row>
+		<field name="customer_id">384</field>
+		<field name="count(rental_id)">25</field>
+	</row>
+
+	<row>
+		<field name="customer_id">235</field>
+		<field name="count(rental_id)">25</field>
+	</row>
+
+	<row>
+		<field name="customer_id">150</field>
+		<field name="count(rental_id)">25</field>
+	</row>
+
+	<row>
+		<field name="customer_id">193</field>
+		<field name="count(rental_id)">25</field>
+	</row>
+
+	<row>
+		<field name="customer_id">417</field>
+		<field name="count(rental_id)">25</field>
+	</row>
+
+	<row>
+		<field name="customer_id">460</field>
+		<field name="count(rental_id)">25</field>
+	</row>
+
+	<row>
+		<field name="customer_id">343</field>
+		<field name="count(rental_id)">25</field>
+	</row>
+
+	<row>
+		<field name="customer_id">98</field>
+		<field name="count(rental_id)">25</field>
+	</row>
+
+	<row>
+		<field name="customer_id">546</field>
+		<field name="count(rental_id)">25</field>
+	</row>
+
+	<row>
+		<field name="customer_id">24</field>
+		<field name="count(rental_id)">25</field>
+	</row>
+
+	<row>
+		<field name="customer_id">536</field>
+		<field name="count(rental_id)">25</field>
+	</row>
+
+	<row>
+		<field name="customer_id">419</field>
+		<field name="count(rental_id)">25</field>
+	</row>
+
+	<row>
+		<field name="customer_id">270</field>
+		<field name="count(rental_id)">25</field>
+	</row>
+
+	<row>
+		<field name="customer_id">590</field>
+		<field name="count(rental_id)">25</field>
+	</row>
+
+	<row>
+		<field name="customer_id">537</field>
+		<field name="count(rental_id)">25</field>
+	</row>
+
+	<row>
+		<field name="customer_id">324</field>
+		<field name="count(rental_id)">25</field>
+	</row>
+
+	<row>
+		<field name="customer_id">463</field>
+		<field name="count(rental_id)">25</field>
+	</row>
+
+	<row>
+		<field name="customer_id">69</field>
+		<field name="count(rental_id)">25</field>
+	</row>
+
+	<row>
+		<field name="customer_id">229</field>
+		<field name="count(rental_id)">25</field>
+	</row>
+
+	<row>
+		<field name="customer_id">517</field>
+		<field name="count(rental_id)">25</field>
+	</row>
+
+	<row>
+		<field name="customer_id">123</field>
+		<field name="count(rental_id)">24</field>
+	</row>
+
+	<row>
+		<field name="customer_id">475</field>
+		<field name="count(rental_id)">24</field>
+	</row>
+
+	<row>
+		<field name="customer_id">571</field>
+		<field name="count(rental_id)">24</field>
+	</row>
+
+	<row>
+		<field name="customer_id">540</field>
+		<field name="count(rental_id)">24</field>
+	</row>
+
+	<row>
+		<field name="customer_id">455</field>
+		<field name="count(rental_id)">24</field>
+	</row>
+
+	<row>
+		<field name="customer_id">541</field>
+		<field name="count(rental_id)">24</field>
+	</row>
+
+	<row>
+		<field name="customer_id">8</field>
+		<field name="count(rental_id)">24</field>
+	</row>
+
+	<row>
+		<field name="customer_id">104</field>
+		<field name="count(rental_id)">24</field>
+	</row>
+
+	<row>
+		<field name="customer_id">19</field>
+		<field name="count(rental_id)">24</field>
+	</row>
+
+	<row>
+		<field name="customer_id">243</field>
+		<field name="count(rental_id)">24</field>
+	</row>
+
+	<row>
+		<field name="customer_id">382</field>
+		<field name="count(rental_id)">24</field>
+	</row>
+
+	<row>
+		<field name="customer_id">73</field>
+		<field name="count(rental_id)">24</field>
+	</row>
+
+	<row>
+		<field name="customer_id">553</field>
+		<field name="count(rental_id)">24</field>
+	</row>
+
+	<row>
+		<field name="customer_id">585</field>
+		<field name="count(rental_id)">24</field>
+	</row>
+
+	<row>
+		<field name="customer_id">564</field>
+		<field name="count(rental_id)">24</field>
+	</row>
+
+	<row>
+		<field name="customer_id">127</field>
+		<field name="count(rental_id)">24</field>
+	</row>
+
+	<row>
+		<field name="customer_id">351</field>
+		<field name="count(rental_id)">24</field>
+	</row>
+
+	<row>
+		<field name="customer_id">511</field>
+		<field name="count(rental_id)">24</field>
+	</row>
+
+	<row>
+		<field name="customer_id">490</field>
+		<field name="count(rental_id)">24</field>
+	</row>
+
+	<row>
+		<field name="customer_id">288</field>
+		<field name="count(rental_id)">24</field>
+	</row>
+
+	<row>
+		<field name="customer_id">11</field>
+		<field name="count(rental_id)">24</field>
+	</row>
+
+	<row>
+		<field name="customer_id">43</field>
+		<field name="count(rental_id)">24</field>
+	</row>
+
+	<row>
+		<field name="customer_id">427</field>
+		<field name="count(rental_id)">24</field>
+	</row>
+
+	<row>
+		<field name="customer_id">534</field>
+		<field name="count(rental_id)">24</field>
+	</row>
+
+	<row>
+		<field name="customer_id">375</field>
+		<field name="count(rental_id)">24</field>
+	</row>
+
+	<row>
+		<field name="customer_id">34</field>
+		<field name="count(rental_id)">24</field>
+	</row>
+
+	<row>
+		<field name="customer_id">130</field>
+		<field name="count(rental_id)">24</field>
+	</row>
+
+	<row>
+		<field name="customer_id">258</field>
+		<field name="count(rental_id)">24</field>
+	</row>
+
+	<row>
+		<field name="customer_id">557</field>
+		<field name="count(rental_id)">24</field>
+	</row>
+
+	<row>
+		<field name="customer_id">99</field>
+		<field name="count(rental_id)">24</field>
+	</row>
+
+	<row>
+		<field name="customer_id">227</field>
+		<field name="count(rental_id)">24</field>
+	</row>
+
+	<row>
+		<field name="customer_id">153</field>
+		<field name="count(rental_id)">24</field>
+	</row>
+
+	<row>
+		<field name="customer_id">100</field>
+		<field name="count(rental_id)">24</field>
+	</row>
+
+	<row>
+		<field name="customer_id">175</field>
+		<field name="count(rental_id)">24</field>
+	</row>
+
+	<row>
+		<field name="customer_id">527</field>
+		<field name="count(rental_id)">24</field>
+	</row>
+
+	<row>
+		<field name="customer_id">101</field>
+		<field name="count(rental_id)">24</field>
+	</row>
+
+	<row>
+		<field name="customer_id">432</field>
+		<field name="count(rental_id)">23</field>
+	</row>
+
+	<row>
+		<field name="customer_id">379</field>
+		<field name="count(rental_id)">23</field>
+	</row>
+
+	<row>
+		<field name="customer_id">134</field>
+		<field name="count(rental_id)">23</field>
+	</row>
+
+	<row>
+		<field name="customer_id">177</field>
+		<field name="count(rental_id)">23</field>
+	</row>
+
+	<row>
+		<field name="customer_id">519</field>
+		<field name="count(rental_id)">23</field>
+	</row>
+
+	<row>
+		<field name="customer_id">583</field>
+		<field name="count(rental_id)">23</field>
+	</row>
+
+	<row>
+		<field name="customer_id">466</field>
+		<field name="count(rental_id)">23</field>
+	</row>
+
+	<row>
+		<field name="customer_id">530</field>
+		<field name="count(rental_id)">23</field>
+	</row>
+
+	<row>
+		<field name="customer_id">93</field>
+		<field name="count(rental_id)">23</field>
+	</row>
+
+	<row>
+		<field name="customer_id">328</field>
+		<field name="count(rental_id)">23</field>
+	</row>
+
+	<row>
+		<field name="customer_id">392</field>
+		<field name="count(rental_id)">23</field>
+	</row>
+
+	<row>
+		<field name="customer_id">62</field>
+		<field name="count(rental_id)">23</field>
+	</row>
+
+	<row>
+		<field name="customer_id">350</field>
+		<field name="count(rental_id)">23</field>
+	</row>
+
+	<row>
+		<field name="customer_id">9</field>
+		<field name="count(rental_id)">23</field>
+	</row>
+
+	<row>
+		<field name="customer_id">233</field>
+		<field name="count(rental_id)">23</field>
+	</row>
+
+	<row>
+		<field name="customer_id">521</field>
+		<field name="count(rental_id)">23</field>
+	</row>
+
+	<row>
+		<field name="customer_id">180</field>
+		<field name="count(rental_id)">23</field>
+	</row>
+
+	<row>
+		<field name="customer_id">415</field>
+		<field name="count(rental_id)">23</field>
+	</row>
+
+	<row>
+		<field name="customer_id">106</field>
+		<field name="count(rental_id)">23</field>
+	</row>
+
+	<row>
+		<field name="customer_id">85</field>
+		<field name="count(rental_id)">23</field>
+	</row>
+
+	<row>
+		<field name="customer_id">341</field>
+		<field name="count(rental_id)">23</field>
+	</row>
+
+	<row>
+		<field name="customer_id">437</field>
+		<field name="count(rental_id)">23</field>
+	</row>
+
+	<row>
+		<field name="customer_id">192</field>
+		<field name="count(rental_id)">23</field>
+	</row>
+
+	<row>
+		<field name="customer_id">352</field>
+		<field name="count(rental_id)">23</field>
+	</row>
+
+	<row>
+		<field name="customer_id">246</field>
+		<field name="count(rental_id)">23</field>
+	</row>
+
+	<row>
+		<field name="customer_id">76</field>
+		<field name="count(rental_id)">23</field>
+	</row>
+
+	<row>
+		<field name="customer_id">364</field>
+		<field name="count(rental_id)">23</field>
+	</row>
+
+	<row>
+		<field name="customer_id">183</field>
+		<field name="count(rental_id)">23</field>
+	</row>
+
+	<row>
+		<field name="customer_id">311</field>
+		<field name="count(rental_id)">23</field>
+	</row>
+
+	<row>
+		<field name="customer_id">365</field>
+		<field name="count(rental_id)">23</field>
+	</row>
+
+	<row>
+		<field name="customer_id">493</field>
+		<field name="count(rental_id)">23</field>
+	</row>
+
+	<row>
+		<field name="customer_id">184</field>
+		<field name="count(rental_id)">23</field>
+	</row>
+
+	<row>
+		<field name="customer_id">216</field>
+		<field name="count(rental_id)">23</field>
+	</row>
+
+	<row>
+		<field name="customer_id">291</field>
+		<field name="count(rental_id)">23</field>
+	</row>
+
+	<row>
+		<field name="customer_id">547</field>
+		<field name="count(rental_id)">23</field>
+	</row>
+
+	<row>
+		<field name="customer_id">185</field>
+		<field name="count(rental_id)">23</field>
+	</row>
+
+	<row>
+		<field name="customer_id">217</field>
+		<field name="count(rental_id)">23</field>
+	</row>
+
+	<row>
+		<field name="customer_id">249</field>
+		<field name="count(rental_id)">23</field>
+	</row>
+
+	<row>
+		<field name="customer_id">313</field>
+		<field name="count(rental_id)">23</field>
+	</row>
+
+	<row>
+		<field name="customer_id">345</field>
+		<field name="count(rental_id)">23</field>
+	</row>
+
+	<row>
+		<field name="customer_id">409</field>
+		<field name="count(rental_id)">23</field>
+	</row>
+
+	<row>
+		<field name="customer_id">335</field>
+		<field name="count(rental_id)">23</field>
+	</row>
+
+	<row>
+		<field name="customer_id">431</field>
+		<field name="count(rental_id)">23</field>
+	</row>
+
+	<row>
+		<field name="customer_id">37</field>
+		<field name="count(rental_id)">23</field>
+	</row>
+
+	<row>
+		<field name="customer_id">453</field>
+		<field name="count(rental_id)">23</field>
+	</row>
+
+	<row>
+		<field name="customer_id">443</field>
+		<field name="count(rental_id)">22</field>
+	</row>
+
+	<row>
+		<field name="customer_id">539</field>
+		<field name="count(rental_id)">22</field>
+	</row>
+
+	<row>
+		<field name="customer_id">81</field>
+		<field name="count(rental_id)">22</field>
+	</row>
+
+	<row>
+		<field name="customer_id">252</field>
+		<field name="count(rental_id)">22</field>
+	</row>
+
+	<row>
+		<field name="customer_id">476</field>
+		<field name="count(rental_id)">22</field>
+	</row>
+
+	<row>
+		<field name="customer_id">18</field>
+		<field name="count(rental_id)">22</field>
+	</row>
+
+	<row>
+		<field name="customer_id">189</field>
+		<field name="count(rental_id)">22</field>
+	</row>
+
+	<row>
+		<field name="customer_id">477</field>
+		<field name="count(rental_id)">22</field>
+	</row>
+
+	<row>
+		<field name="customer_id">488</field>
+		<field name="count(rental_id)">22</field>
+	</row>
+
+	<row>
+		<field name="customer_id">169</field>
+		<field name="count(rental_id)">22</field>
+	</row>
+
+	<row>
+		<field name="customer_id">543</field>
+		<field name="count(rental_id)">22</field>
+	</row>
+
+	<row>
+		<field name="customer_id">394</field>
+		<field name="count(rental_id)">22</field>
+	</row>
+
+	<row>
+		<field name="customer_id">554</field>
+		<field name="count(rental_id)">22</field>
+	</row>
+
+	<row>
+		<field name="customer_id">224</field>
+		<field name="count(rental_id)">22</field>
+	</row>
+
+	<row>
+		<field name="customer_id">480</field>
+		<field name="count(rental_id)">22</field>
+	</row>
+
+	<row>
+		<field name="customer_id">544</field>
+		<field name="count(rental_id)">22</field>
+	</row>
+
+	<row>
+		<field name="customer_id">523</field>
+		<field name="count(rental_id)">22</field>
+	</row>
+
+	<row>
+		<field name="customer_id">22</field>
+		<field name="count(rental_id)">22</field>
+	</row>
+
+	<row>
+		<field name="customer_id">598</field>
+		<field name="count(rental_id)">22</field>
+	</row>
+
+	<row>
+		<field name="customer_id">65</field>
+		<field name="count(rental_id)">22</field>
+	</row>
+
+	<row>
+		<field name="customer_id">321</field>
+		<field name="count(rental_id)">22</field>
+	</row>
+
+	<row>
+		<field name="customer_id">55</field>
+		<field name="count(rental_id)">22</field>
+	</row>
+
+	<row>
+		<field name="customer_id">247</field>
+		<field name="count(rental_id)">22</field>
+	</row>
+
+	<row>
+		<field name="customer_id">514</field>
+		<field name="count(rental_id)">22</field>
+	</row>
+
+	<row>
+		<field name="customer_id">578</field>
+		<field name="count(rental_id)">22</field>
+	</row>
+
+	<row>
+		<field name="customer_id">440</field>
+		<field name="count(rental_id)">22</field>
+	</row>
+
+	<row>
+		<field name="customer_id">67</field>
+		<field name="count(rental_id)">22</field>
+	</row>
+
+	<row>
+		<field name="customer_id">430</field>
+		<field name="count(rental_id)">22</field>
+	</row>
+
+	<row>
+		<field name="customer_id">4</field>
+		<field name="count(rental_id)">22</field>
+	</row>
+
+	<row>
+		<field name="customer_id">68</field>
+		<field name="count(rental_id)">22</field>
+	</row>
+
+	<row>
+		<field name="customer_id">47</field>
+		<field name="count(rental_id)">22</field>
+	</row>
+
+	<row>
+		<field name="customer_id">79</field>
+		<field name="count(rental_id)">22</field>
+	</row>
+
+	<row>
+		<field name="customer_id">143</field>
+		<field name="count(rental_id)">22</field>
+	</row>
+
+	<row>
+		<field name="customer_id">367</field>
+		<field name="count(rental_id)">22</field>
+	</row>
+
+	<row>
+		<field name="customer_id">325</field>
+		<field name="count(rental_id)">22</field>
+	</row>
+
+	<row>
+		<field name="customer_id">496</field>
+		<field name="count(rental_id)">21</field>
+	</row>
+
+	<row>
+		<field name="customer_id">358</field>
+		<field name="count(rental_id)">21</field>
+	</row>
+
+	<row>
+		<field name="customer_id">17</field>
+		<field name="count(rental_id)">21</field>
+	</row>
+
+	<row>
+		<field name="customer_id">401</field>
+		<field name="count(rental_id)">21</field>
+	</row>
+
+	<row>
+		<field name="customer_id">412</field>
+		<field name="count(rental_id)">21</field>
+	</row>
+
+	<row>
+		<field name="customer_id">413</field>
+		<field name="count(rental_id)">21</field>
+	</row>
+
+	<row>
+		<field name="customer_id">552</field>
+		<field name="count(rental_id)">21</field>
+	</row>
+
+	<row>
+		<field name="customer_id">94</field>
+		<field name="count(rental_id)">21</field>
+	</row>
+
+	<row>
+		<field name="customer_id">222</field>
+		<field name="count(rental_id)">21</field>
+	</row>
+
+	<row>
+		<field name="customer_id">489</field>
+		<field name="count(rental_id)">21</field>
+	</row>
+
+	<row>
+		<field name="customer_id">159</field>
+		<field name="count(rental_id)">21</field>
+	</row>
+
+	<row>
+		<field name="customer_id">501</field>
+		<field name="count(rental_id)">21</field>
+	</row>
+
+	<row>
+		<field name="customer_id">118</field>
+		<field name="count(rental_id)">21</field>
+	</row>
+
+	<row>
+		<field name="customer_id">33</field>
+		<field name="count(rental_id)">21</field>
+	</row>
+
+	<row>
+		<field name="customer_id">545</field>
+		<field name="count(rental_id)">21</field>
+	</row>
+
+	<row>
+		<field name="customer_id">556</field>
+		<field name="count(rental_id)">21</field>
+	</row>
+
+	<row>
+		<field name="customer_id">226</field>
+		<field name="count(rental_id)">21</field>
+	</row>
+
+	<row>
+		<field name="customer_id">301</field>
+		<field name="count(rental_id)">21</field>
+	</row>
+
+	<row>
+		<field name="customer_id">429</field>
+		<field name="count(rental_id)">21</field>
+	</row>
+
+	<row>
+		<field name="customer_id">88</field>
+		<field name="count(rental_id)">21</field>
+	</row>
+
+	<row>
+		<field name="customer_id">152</field>
+		<field name="count(rental_id)">21</field>
+	</row>
+
+	<row>
+		<field name="customer_id">568</field>
+		<field name="count(rental_id)">21</field>
+	</row>
+
+	<row>
+		<field name="customer_id">174</field>
+		<field name="count(rental_id)">21</field>
+	</row>
+
+	<row>
+		<field name="customer_id">238</field>
+		<field name="count(rental_id)">21</field>
+	</row>
+
+	<row>
+		<field name="customer_id">505</field>
+		<field name="count(rental_id)">21</field>
+	</row>
+
+	<row>
+		<field name="customer_id">420</field>
+		<field name="count(rental_id)">21</field>
+	</row>
+
+	<row>
+		<field name="customer_id">399</field>
+		<field name="count(rental_id)">21</field>
+	</row>
+
+	<row>
+		<field name="customer_id">165</field>
+		<field name="count(rental_id)">21</field>
+	</row>
+
+	<row>
+		<field name="customer_id">272</field>
+		<field name="count(rental_id)">20</field>
+	</row>
+
+	<row>
+		<field name="customer_id">402</field>
+		<field name="count(rental_id)">20</field>
+	</row>
+
+	<row>
+		<field name="customer_id">509</field>
+		<field name="count(rental_id)">20</field>
+	</row>
+
+	<row>
+		<field name="customer_id">212</field>
+		<field name="count(rental_id)">20</field>
+	</row>
+
+	<row>
+		<field name="customer_id">191</field>
+		<field name="count(rental_id)">20</field>
+	</row>
+
+	<row>
+		<field name="customer_id">320</field>
+		<field name="count(rental_id)">20</field>
+	</row>
+
+	<row>
+		<field name="customer_id">203</field>
+		<field name="count(rental_id)">20</field>
+	</row>
+
+	<row>
+		<field name="customer_id">310</field>
+		<field name="count(rental_id)">20</field>
+	</row>
+
+	<row>
+		<field name="customer_id">449</field>
+		<field name="count(rental_id)">20</field>
+	</row>
+
+	<row>
+		<field name="customer_id">428</field>
+		<field name="count(rental_id)">20</field>
+	</row>
+
+	<row>
+		<field name="customer_id">567</field>
+		<field name="count(rental_id)">20</field>
+	</row>
+
+	<row>
+		<field name="customer_id">162</field>
+		<field name="count(rental_id)">20</field>
+	</row>
+
+	<row>
+		<field name="customer_id">355</field>
+		<field name="count(rental_id)">20</field>
+	</row>
+
+	<row>
+		<field name="customer_id">250</field>
+		<field name="count(rental_id)">20</field>
+	</row>
+
+	<row>
+		<field name="customer_id">549</field>
+		<field name="count(rental_id)">20</field>
+	</row>
+
+	<row>
+		<field name="customer_id">370</field>
+		<field name="count(rental_id)">19</field>
+	</row>
+
+	<row>
+		<field name="customer_id">478</field>
+		<field name="count(rental_id)">19</field>
+	</row>
+
+	<row>
+		<field name="customer_id">458</field>
+		<field name="count(rental_id)">19</field>
+	</row>
+
+	<row>
+		<field name="customer_id">586</field>
+		<field name="count(rental_id)">19</field>
+	</row>
+
+	<row>
+		<field name="customer_id">117</field>
+		<field name="count(rental_id)">19</field>
+	</row>
+
+	<row>
+		<field name="customer_id">395</field>
+		<field name="count(rental_id)">19</field>
+	</row>
+
+	<row>
+		<field name="customer_id">524</field>
+		<field name="count(rental_id)">19</field>
+	</row>
+
+	<row>
+		<field name="customer_id">599</field>
+		<field name="count(rental_id)">19</field>
+	</row>
+
+	<row>
+		<field name="customer_id">525</field>
+		<field name="count(rental_id)">19</field>
+	</row>
+
+	<row>
+		<field name="customer_id">195</field>
+		<field name="count(rental_id)">19</field>
+	</row>
+
+	<row>
+		<field name="customer_id">548</field>
+		<field name="count(rental_id)">19</field>
+	</row>
+
+	<row>
+		<field name="customer_id">378</field>
+		<field name="count(rental_id)">19</field>
+	</row>
+
+	<row>
+		<field name="customer_id">70</field>
+		<field name="count(rental_id)">18</field>
+	</row>
+
+	<row>
+		<field name="customer_id">124</field>
+		<field name="count(rental_id)">18</field>
+	</row>
+
+	<row>
+		<field name="customer_id">542</field>
+		<field name="count(rental_id)">18</field>
+	</row>
+
+	<row>
+		<field name="customer_id">95</field>
+		<field name="count(rental_id)">18</field>
+	</row>
+
+	<row>
+		<field name="customer_id">255</field>
+		<field name="count(rental_id)">18</field>
+	</row>
+
+	<row>
+		<field name="customer_id">97</field>
+		<field name="count(rental_id)">18</field>
+	</row>
+
+	<row>
+		<field name="customer_id">353</field>
+		<field name="count(rental_id)">18</field>
+	</row>
+
+	<row>
+		<field name="customer_id">140</field>
+		<field name="count(rental_id)">18</field>
+	</row>
+
+	<row>
+		<field name="customer_id">194</field>
+		<field name="count(rental_id)">18</field>
+	</row>
+
+	<row>
+		<field name="customer_id">205</field>
+		<field name="count(rental_id)">18</field>
+	</row>
+
+	<row>
+		<field name="customer_id">344</field>
+		<field name="count(rental_id)">18</field>
+	</row>
+
+	<row>
+		<field name="customer_id">483</field>
+		<field name="count(rental_id)">18</field>
+	</row>
+
+	<row>
+		<field name="customer_id">271</field>
+		<field name="count(rental_id)">18</field>
+	</row>
+
+	<row>
+		<field name="customer_id">218</field>
+		<field name="count(rental_id)">18</field>
+	</row>
+
+	<row>
+		<field name="customer_id">48</field>
+		<field name="count(rental_id)">17</field>
+	</row>
+
+	<row>
+		<field name="customer_id">315</field>
+		<field name="count(rental_id)">17</field>
+	</row>
+
+	<row>
+		<field name="customer_id">465</field>
+		<field name="count(rental_id)">17</field>
+	</row>
+
+	<row>
+		<field name="customer_id">223</field>
+		<field name="count(rental_id)">17</field>
+	</row>
+
+	<row>
+		<field name="customer_id">555</field>
+		<field name="count(rental_id)">17</field>
+	</row>
+
+	<row>
+		<field name="customer_id">464</field>
+		<field name="count(rental_id)">16</field>
+	</row>
+
+	<row>
+		<field name="customer_id">492</field>
+		<field name="count(rental_id)">16</field>
+	</row>
+
+	<row>
+		<field name="customer_id">398</field>
+		<field name="count(rental_id)">16</field>
+	</row>
+
+	<row>
+		<field name="customer_id">164</field>
+		<field name="count(rental_id)">16</field>
+	</row>
+
+	<row>
+		<field name="customer_id">136</field>
+		<field name="count(rental_id)">15</field>
+	</row>
+
+	<row>
+		<field name="customer_id">248</field>
+		<field name="count(rental_id)">15</field>
+	</row>
+
+	<row>
+		<field name="customer_id">61</field>
+		<field name="count(rental_id)">14</field>
+	</row>
+
+	<row>
+		<field name="customer_id">110</field>
+		<field name="count(rental_id)">14</field>
+	</row>
+
+	<row>
+		<field name="customer_id">281</field>
+		<field name="count(rental_id)">14</field>
+	</row>
+
+	<row>
+		<field name="customer_id">318</field>
+		<field name="count(rental_id)">12</field>
+	</row>
+</resultset>
